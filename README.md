@@ -1,2 +1,2 @@
 # DailyProblem
-This will be a daily problem I complete. This is to sharpen my skills when not working on a project or in a rut. Also for my Git skills so I can be constantly using Git. 
+This will be a daily problem/project I complete. Will vary from small mini projects to algorithm/data structure practice. Originally used to force me to learn Git.
