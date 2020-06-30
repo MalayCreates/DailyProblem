@@ -8,16 +8,23 @@
 # exist in the array. The array can contain 
 # duplicates and negative numbers as well.
 # ###########################################
-
+r = [1,2,0,3,6,4]
 def main(arr):
-    temparr =[]
-    for i in arr:
-        if (i > 0) and (i not in temparr):
-            temparr.append(i)
-    for j in range(0,len(temparr)):
-        if j != temparr[j]:
-            return j
-        else:
-            return ('None')
+    m = max(arr)
+    if m < 1: 
+        return 1 
+    if len(arr) == 1: 
+        return 2 if arr[0] == 1 else 1     
+    l = [0] * m 
+    for i in range(len(arr)): 
+        if arr[i] > 0: 
+            if l[arr[i] - 1] != 1: 
+                l[arr[i] - 1] = 1 
+    for i in range(len(l)): 
+        if l[i] == 0:  
+            return i + 1
+    return i + 2    
 
-main()
+arr = [0, 10, 2, -10, -20] 
+
+print(main(arr)) 
