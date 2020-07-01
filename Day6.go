@@ -1,20 +1,21 @@
 ///////////////////////////////////////////
 // Author: Malay Agarwal
-// Problem: 
+// Problem:
 // Determine whether an integer is a
 // palindrome. An integer is a palindrome
 // when it reads the same backward as
 // forward.
 //////////////////////////////////////////
-package palindromeint
+package main
 
 import "fmt"
+
 /*
 This is the very first file I have coded in GoLang,
 trying to learn it
 */
 
-func palindromeInt() {
+func main() {
 	var num, remainder, temp int
 	var reverse = 0
 	fmt.Println("Enter non-zero positive number : ")
@@ -34,7 +35,7 @@ func palindromeInt() {
 
 	if temp == reverse {
 		fmt.Printf("%d is a Palindrome\n", temp)
-	} else{
+	} else {
 		fmt.Printf("%d is not a Palindrome:\n", temp)
 	}
 }
