@@ -23,5 +23,5 @@ def main():
     for i in range(n):  
         prod[i] = left[i] * right[i]  
     for i in range(n):  
-        print(prod[i], end =' ')  
+        print(prod[i], end =' ')
 main()
