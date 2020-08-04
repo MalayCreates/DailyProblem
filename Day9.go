@@ -7,7 +7,7 @@
 // the rightmost position.
 //////////////////////////////////////////
 
-package judgeCircle
+package main
 
 import (
 	"fmt"

@@ -13,7 +13,8 @@
 // from the root to that leaf.
 // Return the sum of these numbers.
 //////////////////////////////////////////
-package judgeCircle
+package main
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -30,8 +31,8 @@ func DFS(root *TreeNode, sum int, total *int) {
 	if root.Left == nil && root.Right == nil {
 		*total += sum
 	}
-	DFS(root.Left, sum * 2, total)
-	DFS(root.Right, sum * 2, total)
+	DFS(root.Left, sum*2, total)
+	DFS(root.Right, sum*2, total)
 }
 func sumRootToLeaf(root *TreeNode) int {
 	total := 0

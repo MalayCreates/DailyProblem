@@ -5,7 +5,7 @@
 // repeatedly add all its digits until the
 // result has only one digit.
 //////////////////////////////////////////
-package judgeCircle
+package main
 
 import (
 	"fmt"
