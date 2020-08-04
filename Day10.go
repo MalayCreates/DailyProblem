@@ -7,9 +7,9 @@
 // search target in nums. If target
 // exists, then return its index,
 // otherwise return -1.
-//////////////////////////////////////////
+///////////////////////////////////////////
 
-package main
+package judgeCircle
 
 import (
 	"fmt"

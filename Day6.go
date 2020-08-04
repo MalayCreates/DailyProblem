@@ -6,7 +6,7 @@
 // when it reads the same backward as
 // forward.
 //////////////////////////////////////////
-package main
+package judgeCircle
 
 import "fmt"
 

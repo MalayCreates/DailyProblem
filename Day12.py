@@ -20,6 +20,6 @@ class Solution(object):
         :rtype: int
         """
         leftmost = self.maxDepth(root.left)
-        rightmost = self.axDepth(root.right)
+        rightmost = self.maxDepth(root.right)
         maxdepth = max(leftmost, rightmost)
         return maxdepth

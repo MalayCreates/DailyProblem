@@ -8,7 +8,7 @@
 // maximum salary.
 //////////////////////////////////////////
 
-package main
+package judgeCircle
 
 import(
 	"fmt"

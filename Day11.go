@@ -13,7 +13,7 @@
 // from the root to that leaf.
 // Return the sum of these numbers.
 //////////////////////////////////////////
-package sumRootToLeaf
+package judgeCircle
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
