@@ -9,7 +9,7 @@
 // otherwise return -1.
 ///////////////////////////////////////////
 
-package main
+package judgeCircle
 
 import (
 	"fmt"

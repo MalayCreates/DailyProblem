@@ -17,7 +17,7 @@
 // moves, return true. Otherwise,
 // return false.
 ///////////////////////////////////////////
-package main
+package judgeCircle
 
 import (
 	"strings"
@@ -26,24 +26,24 @@ import (
 func judgeCircle(moves string) bool {
 	x := 0
 	y := 0
-	moveList := strings.Split(moves, ",")
-	for _, c := range moveList {
-		if c == "U" {
+	moveList := strings.Split(moves,",")
+	for _,c := range moveList{
+		if c == "U"{
 			x++
 		}
-		if c == "D" {
+		if c == "D"{
 			x--
 		}
-		if c == "R" {
+		if c == "R"{
 			y++
 		}
-		if c == "L" {
+		if c == "L"{
 			y--
 		}
 	}
-	if (x != 0) || (y != 0) {
+	if (x != 0) || (y != 0){
 		return true
-	} else {
+	}else{
 		return false
 	}
 }
